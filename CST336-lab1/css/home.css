@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    font-family: 'Verdana';
+    color: white;
+}
+
+header {
+    background-color: black;
+    
+}
+
+hr {
+    border: 1px solid white;
+}
+
+nav {
+    background-color: #A49062;
+    padding: 25px;
+    text-align: center;
+}
+
+.navdiv {
+    margin: 10px;
+    justify-content: center;
+}
+
+a {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #353535;
+    color: white;
+    text-decoration: none;
+    font-family: 'Verdana';
+}
