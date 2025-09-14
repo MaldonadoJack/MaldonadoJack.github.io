@@ -1,0 +1,131 @@
+h1 {
+    text-align: center;
+    font-family: 'Verdana';
+    color: rgb(65, 103, 207);
+    padding-top: 20px;
+    letter-spacing: 3px;
+}
+
+header {
+    background-color: black;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+nav {
+    background-color: gray;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 5px 10px black;
+}
+
+#navdiv {
+    margin: 10px;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #353535;
+    color: white;
+    text-decoration: none;
+    font-family: 'Verdana';
+}
+
+body {
+    background-color: rgb(73, 101, 180);
+}
+
+footer {
+    background-color: gray;
+}
+
+.footerText {
+    color: white;
+    font-family: 'Verdana';
+}
+
+#footerimg {
+    background-color: white;
+    border-radius: 25px;
+}
+
+#bodyText {
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-family: "Verdana";
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+#img1 {
+    width: 500px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: 1px solid white;
+}
+
+#img2 {
+    width: 500px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid white;
+}
+
+#info {
+    color: white;
+    font-family: "Verdana";
+}
+
+li {
+    color: white;
+    font-family: "Verdana";
+}
+
+#infoPicture {
+    border: 1px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#exampleText {
+    color:white;
+    font-family: "Verdana";
+}
+
+#examplePictures {
+    border: 1px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+label {
+    color: white;
+    font-family: "Verdana";
+}
+
+#subtopicText {
+    color: white;
+    font-family: "Verdana";
+}
+
+#crytographyPicture {
+    border: 1px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
