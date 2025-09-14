@@ -99,7 +99,7 @@ li {
     width: 50%;
 }
 
-#exampleText {
+.exampleText {
     color:white;
     font-family: "Verdana";
 }
