@@ -104,7 +104,7 @@ li {
     font-family: "Verdana";
 }
 
-#examplePictures {
+.examplePictures {
     border: 1px solid white;
     display: block;
     margin-left: auto;
