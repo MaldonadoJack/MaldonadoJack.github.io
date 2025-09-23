@@ -1,0 +1,60 @@
+body {
+    background-image: url("../img/background.png");
+    background-size: cover;
+}
+
+#main {
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Verdana";
+    color: darkorchid;
+}
+
+header {
+    padding-top: 200px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Verdana";
+    color: darkorchid;
+}
+
+h2 {
+    font-family: "Verdana";
+    color: slategray;
+}
+
+#playerGuessLabel {
+    font-size: 40px;
+}
+
+#playerGuess {
+    font-size: 40px;
+}
+
+#guessBtn {
+    font-size: 40px;
+}
+
+#feedback {
+    padding: 20px;
+    background-color: lightyellow;
+    font-weight: bold;
+}
+
+#guessesDiv {
+    background-color: gray;
+    color: white;
+}
+
+#guesses {
+    color: white;
+}
+
+#roundsPlayed {
+    background-color: lightgray;
+    color: black;
+}
