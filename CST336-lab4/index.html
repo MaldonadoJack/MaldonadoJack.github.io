@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <h1>This is a Quiz</h1>
+    </header>
+
+    <label for="q1">What's my favorite color?</label>
+    <input id="q1">
+    <p id="q1Result"></p>
+
+    <br>
+    <hr>
+    <br>
+
+    <p id="q2QuestionText">What is my favorite animal?</p>
+    <input id="dog" type="radio" name="animals" value="dog">
+    <label for="dog">Dog</label>
+    <input id="cat" type="radio" name="animals" value="cat">
+    <label for="cat">Cat</label>
+    <input id="fox" type="radio" name="animals" value="fox">
+    <label for="fox">Fox</label>
+    <input id="lizard" type="radio" name="animals" value="lizard">
+    <label for="lizard">Lizard</label>
+    <p id="q2Result"></p>
+
+    <br>
+    <hr>
+    <br>
+
+    <p id="q3QuestionText">What games do I like?</p>
+    <input id="Minecraft" type="checkbox" name="games" value="Minecraft">
+    <label for="Minecraft">Minecraft</label>
+    <input id="Destiny 2" type="checkbox" name="games" value="Destiny 2">
+    <label for="Destiny 2">Destiny 2</label>
+    <input id="Overwatch 2" type="checkbox" name="games" value="Overwatch 2">
+    <label for="Overwatch 2">Overwatch 2</label>
+    <input id="Apex: Legends" type="checkbox" name="games" value="Apex: Legends">
+    <label for="Apex: Legends">Apex: Legends</label>
+    <p id="q3Result"></p>
+
+    <br>
+    <hr>
+    <br>
+
+    <div id="q4Div">
+        <p id="q4QuestionText">What is my favorite number?</p>
+    <!-- <input type="radio" id="1" name="q4Answers" value="1">
+    <label for="1">1</label>
+    <input type="radio" id="2" name="q4Answers" value="2">
+    <label for="2">2</label>
+    <input type="radio" id="3" name="q4Answers" value="3">
+    <label for="3">3</label>
+    <button id="q4Submit">Submit</button> -->
+    </div>
+    <p id="q4Result"></p>
+
+    <br>
+    <hr>
+    <br>
+
+    <p id="q5QuestionText">What car do I drive?</p>
+    <label for="q5">
+        <select id="q5">
+            <option value="Kia">Kia</option>
+            <option value="Audi">Audi</option>
+            <option value="Toyoda">Toyoda</option>
+        </select>
+    </label>
+    <p id="q5Result"></p>
+
+    <br>
+    <hr>
+    <br>
+
+    <button id="q1Submit">Submit</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd-min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+header {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#q1 {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#q1Result {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#q2QuestionText {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#q2Result {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#q3QuestionText {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#q3Result {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#q4Div {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#q4Result {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#q5QuestionText {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#q5Result {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
