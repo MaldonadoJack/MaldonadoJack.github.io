@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+#game {
+    margin-top: 40px;
+}
+
+.cards {
+    font-size: 24px;
+    margin: 10px 0
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#win-img {
+    display: none;
+    width: 200px;
+    margin: 20px auto 0;
+    text-align: center;
+}

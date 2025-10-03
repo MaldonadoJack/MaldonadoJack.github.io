@@ -5,6 +5,8 @@ let q3Message = document.querySelector("#q3Result");
 let q4Message = document.querySelector("#q4Result");
 let q5Message = document.querySelector("#q5Result");
 
+let score = 0;
+
 // generate random order answers
 let question4Options = [1 , 2 , 3 , 7 , 8 , 27 , 16];
 
@@ -34,6 +36,7 @@ submitButton.addEventListener("click" , function () {
     if (answer1 == "pink") {
         q1Message.textContent = "Correct!";
         q1Message.style.color = "green";
+        score += 20;
     } else {
         q1Message.textContent = "Wrong!";
         q1Message.style.color = "red";
@@ -44,6 +47,7 @@ submitButton.addEventListener("click" , function () {
     if (answer2 == "fox") {
         q2Message.textContent = "Correct!";
         q2Message.style.color = "green";
+        score += 20;
     } else {
         q2Message.textContent = "Wrong!";
         q2Message.style.color = "red";
@@ -54,6 +58,7 @@ submitButton.addEventListener("click" , function () {
     if (answer3Array.includes("Destiny 2") && answer3Array.includes("Minecraft")) {
         q3Message.textContent = "Correct!";
         q3Message.style.color = "green";
+        score += 20;
     } else {
         q3Message.textContent = "Wrong!";
         q3Message.style.color = "red";
@@ -63,6 +68,7 @@ submitButton.addEventListener("click" , function () {
     if (answer4 == "7") {
         q4Message.textContent = "Correct!";
         q4Message.style.color = "green";
+        score += 20;
     } else {
         q4Message.textContent = "Wrong!";
         q4Message.style.color = "red";
@@ -72,10 +78,18 @@ submitButton.addEventListener("click" , function () {
     if (answer5.value == "Kia") {
         q5Message.textContent = "Correct!";
         q5Message.style.color = "green";
+        score += 20;
     } else {
         q5Message.textContent = "Wrong!";
         q5Message.style.color = "red";
     }
+
+    let scoreResult = document.getElementById("scoreResult");
+    scoreResult.textContent = score;
+    if (score >= 80) {
+        alert("Great job! You scored " + score + " points!");
+    }
+    score = 0;
 });
 
 // for checkbox: let answer2 = document.querySelectorAll("input[name=animals]:checked");
