@@ -1,0 +1,14 @@
+#displayAuthorDiv {
+    display: flex;
+    justify-content: center;
+    border: black 1px solid;
+}
+
+#displayAuthorBio {
+    max-width: 75ch;
+}
+
+#displayAuthorImg {
+    width: 200px;
+    border: 0px;
+}
